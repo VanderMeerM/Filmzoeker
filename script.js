@@ -27,6 +27,9 @@ const recentMovies = document.getElementsByName("moviefilters").
             }
 
             switch (event.target.value) {
+                    case "allmovies":
+                   addMoviestoDom(movies);
+                    break;
                 case "recentmovies":
                     const filterLatestMovies = movies.filter(movies => movies.Year >= 2014);
                     addMoviestoDom(filterLatestMovies);
