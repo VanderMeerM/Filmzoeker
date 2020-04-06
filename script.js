@@ -27,7 +27,11 @@ const recentMovies = document.getElementsByName("moviefilters").
             }
 
             switch (event.target.value) {
+<<<<<<< HEAD
                 case "allmovies":
+=======
+                    case "allmovies":
+>>>>>>> edee8ebe2151f69c8e171002c78d28ec58c56d0f
                    addMoviestoDom(movies);
                     break;
                 case "recentmovies":

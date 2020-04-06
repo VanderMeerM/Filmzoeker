@@ -10,10 +10,15 @@ h2 {
     color: white;
 }
 
+<<<<<<< HEAD
 nav, input {
     display: flex;
     justify-content: center;
     margin-left: 30px;
+=======
+nav, div, input {
+    display: inline;
+>>>>>>> edee8ebe2151f69c8e171002c78d28ec58c56d0f
     color: white;
 }
  
