@@ -26,9 +26,13 @@ li {
 }
 
 img {
-    width: 200px;
-    height: 266px;
-   
+    transform: scale(0.8);
+       
+}
+
+ul {
+    padding-left: 10px;
+    margin: 10px 0;
 }
 
 #textfield {

@@ -29,6 +29,7 @@ const recentMovies = document.getElementsByName("moviefilters").
     forEach(filter => {
         filter.addEventListener("change", 
             function handleOnChangeEvent(event) {
+                document.getElementById('textfield').value='';
                 removePreviousMovies();
                
                if (event.target.value ==="allmovies") {
