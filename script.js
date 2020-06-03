@@ -7,6 +7,7 @@ function addMoviestoDom(movies) {
         const newImg = document.createElement("img");
         newImg.src = movie.Poster;
         newA.href = `https://www.imdb.com/title/${movie.imdbID}`;
+        newA.setAttribute('target', '_blank');
         moviedatabase.appendChild(newLi);
         newLi.appendChild(newA);
         newA.appendChild(newImg);
